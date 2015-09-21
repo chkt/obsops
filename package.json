@@ -1,0 +1,36 @@
+{
+	"name": "ObjectTools",
+	"description" : "Object set and equality operations",
+	"version": "0.0.1",
+	"license" : "MIT",
+
+	"author" : {
+		"name" : "Christoph Kettelhoit",
+		"email" : "ck@christoph-kettelhoit.de",
+		"url" : "christoph-kettelhoit.de"
+	},
+
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/chkt/ObjectTools"
+	},
+
+	"scripts" : {
+		"test" : "gulp test"
+	},
+
+	"files" : [
+		"source"
+	],
+
+	"main" : "source/index.js",
+
+	"devDependencies" : {
+		"babel" : "~5.8",
+		"jscs" : "~2.1",
+		"gulp" : "~3.9",
+		"gulp-jshint" : "~1.11",
+		"gulp-jscs" : "~2.0",
+		"gulp-mocha" : "~2.1"
+	}
+}
