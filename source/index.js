@@ -230,7 +230,8 @@ export function difference(...objects) {
 		}
 
 		if (deep) {
-			if (items.length !== 0) {
+			if (items.length === 0) desc.value = copy(desc.value);
+			else {
 				const ret = difference(desc.value, ...items);
 
 				if (Object.keys(ret).length === 0) continue;
