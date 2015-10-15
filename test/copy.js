@@ -6,12 +6,12 @@ import * as _obj from '../source';
 
 describe('obj.copy', () => {
 	it("should require one argument", () => {
-		_assert.throws(() => { _obj.copy() }, TypeError);
-		_assert.doesNotThrow(() => { _obj.copy({}) });
+		_assert.throws(() => _obj.copy(), TypeError);
+		_assert.doesNotThrow(() => _obj.copy({}));
 	});
 
 	it("should require its argument to be an object", () => {
-		_assert.throws(() => { _obj.copy(null) }, TypeError);
+		_assert.throws(() => _obj.copy(null), TypeError);
 	});
 
 	it("should create a shallow copy", () => {
