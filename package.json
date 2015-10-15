@@ -1,7 +1,7 @@
 {
-	"name": "setob",
-	"description" : "Object set and equality operations",
-	"version": "0.0.1",
+	"name": "obsops",
+	"description" : "Nested Object manipulation",
+	"version": "0.0.3",
 	"license" : "MIT",
 
 	"author" : {
@@ -16,21 +16,24 @@
 	},
 
 	"scripts" : {
+		"gulp" : "gulp",
 		"test" : "gulp test"
 	},
 
 	"files" : [
-		"source"
+		"dist/index.js"
 	],
 
-	"main" : "source/index.js",
+	"main" : "dist/index.js",
 
 	"devDependencies" : {
+		"del": "~2.0",
 		"babel" : "~5.8",
 		"jscs" : "~2.1",
 		"gulp" : "~3.9",
 		"gulp-jshint" : "~1.11",
 		"gulp-jscs" : "~2.0",
-		"gulp-mocha" : "~2.1"
+		"gulp-mocha" : "~2.1",
+		"gulp-babel" : "~5.2"
 	}
 }
