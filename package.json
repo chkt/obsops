@@ -21,6 +21,17 @@
 	},
 
 	"files" : [
+		"source/utility.js",
+		"source/copy.js",
+		"source/union.js",
+		"source/intersection.js",
+		"source/difference.js",
+		"source/index.js",
+		"dist/utility.js",
+		"dist/copy.js",
+		"dist/union.js",
+		"dist/intersection.js",
+		"dist/difference.js",
 		"dist/index.js"
 	],
 
