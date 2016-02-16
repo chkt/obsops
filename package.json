@@ -31,10 +31,10 @@
 
 	"files" : [
 		"source/",
-		"dist/"
+		"es5/"
 	],
 
-	"main" : "dist/index.js",
+	"main" : "es5/index.js",
 
 	"devDependencies" : {
 		"del": "~2.0",
