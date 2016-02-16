@@ -4,6 +4,15 @@
 	"version": "0.1.2",
 	"license" : "MIT",
 
+	"keywords" : [
+		"copy",
+		"freeze",
+		"set",
+		"operation",
+		"set operation",
+		"object"
+	],
+
 	"author" : {
 		"name" : "Christoph Kettelhoit",
 		"email" : "ck@christoph-kettelhoit.de",
@@ -21,18 +30,8 @@
 	},
 
 	"files" : [
-		"source/utility.js",
-		"source/copy.js",
-		"source/union.js",
-		"source/intersection.js",
-		"source/difference.js",
-		"source/index.js",
-		"dist/utility.js",
-		"dist/copy.js",
-		"dist/union.js",
-		"dist/intersection.js",
-		"dist/difference.js",
-		"dist/index.js"
+		"source/",
+		"dist/"
 	],
 
 	"main" : "dist/index.js",
