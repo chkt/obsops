@@ -20,6 +20,15 @@ export function freezeCopy(obj) {
 	return _freeze(obj, false);
 }
 
+/**
+ * Returns a frozen proxy of obj
+ * @param {Object} obj - The source object
+ * @returns {Object}
+ */
+export function freezeProxy(obj) {
+	return _freeze(obj, true);
+}
+
 
 /**
  * Returns a copy of JSON compatible obj
